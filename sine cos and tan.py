@@ -1,0 +1,8 @@
+A=int(input("Enter the angle:"))
+from math import(sin,cos,tan)
+R=sin(A)
+C=cos(A)
+T=tan(A)
+print("The sine of",A, "is",R)
+print("The cosine of",A, "is",C)
+print("The tangent of",A, "is",T)

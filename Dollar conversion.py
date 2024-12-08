@@ -1,0 +1,10 @@
+amount=int("Enter amount:")
+amount_in_cents = int(amount * 100)
+quarters = amount_in_cents // 25
+dimes = amount_in_cents // 10
+nickels = amount_in_cents // 5
+pennies = amount_in_cents
+print("Quarters=",quarters)
+print("Dimes=",dimes)
+print("Nickels=",nickels)
+print ("Pennies=",pennies)
